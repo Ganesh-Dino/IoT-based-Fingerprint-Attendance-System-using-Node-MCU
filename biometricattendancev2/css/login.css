@@ -1,0 +1,161 @@
+h1 {
+  font-size: 28px !important;
+  color: #003366; /* Dark Blue */
+  font-weight: 300;
+  font-family: "Roboto", sans-serif !important;
+  text-align: center;
+  margin: 15px;
+  padding-top: 20px;
+}
+
+.login-page {
+  width: 360px;
+  padding: 30px 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: rgba(240, 248, 255, 0.8); /* Light Blue-White Background */
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 139, 0.2), 0 10px 10px 0 rgba(0, 0, 139, 0.1); /* Navy Shadows */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #ffffff; /* White input background */
+  width: 100%;
+  border: 1px solid #cce7ff; /* Light Blue Border */
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #0073e6; /* Vibrant Blue */
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff; /* White Text */
+  font-size: 15px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #005bb5; /* Darker Blue on Hover */
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #003366; /* Dark Blue */
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.form .message a {
+  color: #0056b3; /* Link Blue */
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.form .alert {
+  border-radius: 10px;
+}
+
+.form .alert1 {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+#reset {
+  display: none;
+}
+
+.form .reset-form {
+  display: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #003366; /* Dark Blue */
+}
+
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #003366;
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #0073e6; /* Blue Icon Color */
+}
+
+.modal-content {
+  background: rgba(0, 0, 139, 0.05); /* Soft Navy Tint */
+}
+
+@media only screen and (max-width: 480px) {
+  .login-page {
+    width: 100%;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    margin: 10px;
+  }
+  h1 {
+    font-size: 18px !important;
+  }
+  .form input,
+  .form button {
+    margin: 0 0 10px;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+}

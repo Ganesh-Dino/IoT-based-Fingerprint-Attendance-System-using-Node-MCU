@@ -1,0 +1,125 @@
+h1 {
+  font-size: 28px !important;
+  color: #003366; /* Dark Blue */
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif !important;
+  text-align: center;
+  margin: 15px !important;
+}
+
+th {
+  padding: 15px;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 19px;
+  color: #FFFFFF; /* White */
+  background-color: #0056b3; /* Vibrant Blue */
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  color: #003366; /* Dark Blue */
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  display: block;
+  margin: 20px auto;
+}
+
+.panel {
+  border-color: #0056b3 !important; /* Vibrant Blue */
+}
+
+.panel-heading {
+  background-color: #0056b3 !important; /* Vibrant Blue */
+  color: #FFFFFF; /* White */
+}
+
+.panel-body {
+  background-color: #E6F0FF !important; /* Light Blue Shade */
+  color: #003366; /* Dark Blue */
+}
+
+.mode_select {
+  display: block;
+  position: relative;
+}
+
+.mode_select input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.mode_select label {
+  background-color: #0056b3; /* Vibrant Blue */
+  color: #FFFFFF; /* White */
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  padding: 6px 12px;
+  margin-right: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease-in-out;
+  border-radius: 5px;
+}
+
+.mode_select label:hover {
+  cursor: pointer;
+}
+
+.mode_select input:checked + label {
+  background-color: #4CAF50; /* Green for selection */
+  color: #FFFFFF; /* White */
+  box-shadow: none;
+}
+
+.alert_dev {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.alert_dev_del {
+  position: absolute;
+  right: 20px;
+  height: 30px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #0056b3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #0056b3; /* Vibrant Blue */
+  color: #FFFFFF; /* White */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #E6F0FF; /* Light Blue Shade */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #D9ECFF; /* Slightly darker Light Blue */
+}
+
+tbody tr:hover {
+  background-color: #B3D9FF; /* Highlight Light Blue on hover */
+}
+
+tbody td {
+  color: #003366; /* Dark Blue */
+}
