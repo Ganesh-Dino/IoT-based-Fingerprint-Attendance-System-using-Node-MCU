@@ -4,7 +4,7 @@ Streamline attendance with this IoT-based system! 🖱️ Built using NodeMCU &a
 # INSTRUCTIONS
 ## Node MCU Pin Out
 <div align="center">
-  <img src="![image](https://github.com/user-attachments/assets/da99ea21-34c3-407b-9a25-b02c2a1a189f)" alt="Image Description" width="300">
+  <img src="[![image](https://github.com/user-attachments/assets/da99ea21-34c3-407b-9a25-b02c2a1a189f)](https://mischianti.org/wp-content/uploads/2021/10/NodeMcu-V2-CP2102-Lua-ESP8266-pinout-mischianti-high-resolution.png)" alt="Image Description" width="300">
 </div>
 
 
